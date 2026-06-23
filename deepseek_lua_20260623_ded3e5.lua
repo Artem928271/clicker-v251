@@ -97,8 +97,8 @@ Screen.ResetOnSpawn = false
 
 -- ОСНОВНОЕ ОКНО
 local Main = Instance.new("Frame", Screen)
-Main.Size = UDim2.new(0, 420, 0, 520)
-Main.Position = UDim2.new(0.5, -210, 0.5, -260)
+Main.Size = UDim2.new(0, 300, 0, 340)
+Main.Position = UDim2.new(0.5, -55, 0.5, -205)
 Main.BackgroundColor3 = Color3.fromRGB(5, 5, 10)
 Main.Active, Main.Draggable = true, true
 Instance.new("UIStroke", Main).Color = Color3.fromRGB(0, 255, 255)
